@@ -32,21 +32,42 @@
       {"id": "imbi", "name": "Imbi"}
     ],
     "roundCount": 5,
-    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "gameIDs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
     "byes": [],
     "robotStartingBaskets": {
-      "bbatc": ["blue", "magenta", "blue"],
-      "1_9-tdi": ["magenta", "blue", "blue"],
-      "saucisson": ["magenta", "blue", "magenta"],
-      "hugo-toom": ["blue", "magenta", "blue"],
-      "polva-passat": ["blue", "magenta", "blue"],
-      "arnold": ["magenta", "blue", "magenta"],
-      "larry-bird": ["magenta", "blue", "magenta"],
-      "robotina-robotica": ["blue", "magenta", "blue"],
-      "zz": ["blue", "magenta", "magenta"],
-      "imbi": ["magenta", "blue", "magenta"]
+      "bbatc": ["blue", "magenta", "blue", "magenta"],
+      "1_9-tdi": ["magenta", "blue", "blue", "magenta"],
+      "saucisson": ["magenta", "blue", "magenta", "blue"],
+      "hugo-toom": ["blue", "magenta", "blue", "magenta"],
+      "polva-passat": ["blue", "magenta", "blue", "blue"],
+      "arnold": ["magenta", "blue", "magenta", "blue"],
+      "larry-bird": ["magenta", "blue", "magenta", "magenta"],
+      "robotina-robotica": ["blue", "magenta", "blue", "magenta"],
+      "zz": ["blue", "magenta", "magenta", "blue"],
+      "imbi": ["magenta", "blue", "magenta", "blue"]
     },
     "hasEnded": false
   },
-  "breakInfo": {"isEnabled": false, "endTime": 1768653696947}
+  "breakInfo": {"isEnabled": true, "endTime": 1768655651695}
 }
