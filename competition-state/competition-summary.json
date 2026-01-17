@@ -13,5 +13,292 @@
     {"id": "saucisson", "name": "Saucisson"},
     {"id": "zz", "name": "Zorg en Zekerheid"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 5,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "saucisson", "name": "Saucisson"},
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "polva-passat", "name": "Põlva Passat"},
+      {"id": "arnold", "name": "Arnold"},
+      {"id": "larry-bird", "name": "Larry Bird"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "zz", "name": "Zorg en Zekerheid"},
+      {"id": "imbi", "name": "Imbi"}
+    ],
+    "roundCount": 5,
+    "games": [
+      {
+        "id": 1,
+        "robots": [
+          {"id": "bbatc", "name": "BBATC"},
+          {"id": "1_9-tdi", "name": "1.9 TDI"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.66, 1],
+          [0.66, -1],
+          [-1.21, -0.5],
+          [1.21, 0.5],
+          [-0.43, -0.64],
+          [0.43, 0.64],
+          [-1.51, -0.43],
+          [1.51, 0.43],
+          [-1.22, 0.29],
+          [1.22, -0.29]
+        ]
+      },
+      {
+        "id": 2,
+        "robots": [
+          {"id": "saucisson", "name": "Saucisson"},
+          {"id": "hugo-toom", "name": "Hugo Toom"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.59, 1.15],
+          [0.59, -1.15],
+          [0.13, -0.2],
+          [-0.13, 0.2],
+          [-1.76, 0.44],
+          [1.76, -0.44],
+          [-0.81, -0.24],
+          [0.81, 0.24],
+          [-0.87, -0.56],
+          [0.87, 0.56]
+        ]
+      },
+      {
+        "id": 3,
+        "robots": [
+          {"id": "polva-passat", "name": "Põlva Passat"},
+          {"id": "arnold", "name": "Arnold"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.93, -0.09],
+          [-0.93, 0.09],
+          [0, 0.55],
+          [0, -0.55],
+          [-0.69, -0.82],
+          [0.69, 0.82],
+          [-1.88, -0.69],
+          [1.88, 0.69],
+          [-0.45, 0.83],
+          [0.45, -0.83]
+        ]
+      },
+      {
+        "id": 4,
+        "robots": [
+          {"id": "larry-bird", "name": "Larry Bird"},
+          {"id": "robotina-robotica", "name": "Robotina Robotica"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.6, 0.28],
+          [-0.6, -0.28],
+          [-1.95, 1.24],
+          [1.95, -1.24],
+          [-0.58, 0.63],
+          [0.58, -0.63],
+          [1.19, -0.94],
+          [-1.19, 0.94],
+          [-0.93, 0.69],
+          [0.93, -0.69]
+        ]
+      },
+      {
+        "id": 5,
+        "robots": [
+          {"id": "zz", "name": "Zorg en Zekerheid"},
+          {"id": "imbi", "name": "Imbi"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.58, 0.34],
+          [-1.58, -0.34],
+          [-0.45, -0.42],
+          [0.45, 0.42],
+          [0.54, 0.87],
+          [-0.54, -0.87],
+          [2.1, -1.41],
+          [-2.1, 1.41],
+          [-2.14, -0.73],
+          [2.14, 0.73]
+        ]
+      }
+    ],
+    "byes": [],
+    "robotScores": [
+      {
+        "robot": {"id": "bbatc", "name": "BBATC"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 1
+      },
+      {
+        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "saucisson", "name": "Saucisson"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 3
+      },
+      {
+        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 4
+      },
+      {
+        "robot": {"id": "polva-passat", "name": "Põlva Passat"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 5
+      },
+      {
+        "robot": {"id": "arnold", "name": "Arnold"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 6
+      },
+      {
+        "robot": {"id": "larry-bird", "name": "Larry Bird"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 7
+      },
+      {
+        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 8
+      },
+      {
+        "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 9
+      },
+      {
+        "robot": {"id": "imbi", "name": "Imbi"},
+        "score": 0,
+        "tieBreakScore": 0,
+        "rank": 10
+      }
+    ],
+    "robotStartingBaskets": {
+      "bbatc": ["blue"],
+      "1_9-tdi": ["magenta"],
+      "saucisson": ["magenta"],
+      "hugo-toom": ["blue"],
+      "polva-passat": ["blue"],
+      "arnold": ["magenta"],
+      "larry-bird": ["magenta"],
+      "robotina-robotica": ["blue"],
+      "zz": ["blue"],
+      "imbi": ["magenta"]
+    },
+    "hasEnded": false
+  }
 }
