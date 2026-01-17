@@ -42,7 +42,13 @@
         ],
         [{"time": 1768656074770, "isValid": true}]
       ],
-      "fouls": [[], [{"time": 1768656090590, "isValid": true}]],
+      "fouls": [
+        [],
+        [
+          {"time": 1768656090590, "isValid": true},
+          {"time": 1768656127950, "isValid": true}
+        ]
+      ],
       "readyStates": [true, true],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
@@ -50,7 +56,7 @@
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1768656056230, "endTime": 1768656084998},
-        {"startTime": 1768656102950, "endTime": null}
+        {"startTime": 1768656102950, "endTime": 1768656123926}
       ]
     }
   ],
