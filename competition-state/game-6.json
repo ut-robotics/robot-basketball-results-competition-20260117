@@ -1,0 +1,35 @@
+{
+  "id": 6,
+  "robots": [
+    {"id": "larry-bird", "name": "Larry Bird"},
+    {"id": "zz", "name": "Zorg en Zekerheid"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.33, 0.1],
+    [-1.33, -0.1],
+    [0.62, -1.13],
+    [-0.62, 1.13],
+    [1.32, -0.28],
+    [-1.32, 0.28],
+    [-1.54, 0.38],
+    [1.54, -0.38],
+    [-0.23, 0.31],
+    [0.23, -0.31]
+  ]
+}

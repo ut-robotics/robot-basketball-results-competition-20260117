@@ -1,0 +1,35 @@
+{
+  "id": 7,
+  "robots": [
+    {"id": "saucisson", "name": "Saucisson"},
+    {"id": "polva-passat", "name": "Põlva Passat"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.27, -0.58],
+    [-0.27, 0.58],
+    [0.07, -1.25],
+    [-0.07, 1.25],
+    [0.8, -1.41],
+    [-0.8, 1.41],
+    [-2.06, 1.01],
+    [2.06, -1.01],
+    [-1.24, 1.22],
+    [1.24, -1.22]
+  ]
+}

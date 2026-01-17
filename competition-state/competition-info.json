@@ -32,20 +32,21 @@
       {"id": "imbi", "name": "Imbi"}
     ],
     "roundCount": 5,
-    "gameIDs": [1, 2, 3, 4, 5],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "byes": [],
     "robotStartingBaskets": {
-      "bbatc": ["blue"],
-      "1_9-tdi": ["magenta"],
-      "saucisson": ["magenta"],
-      "hugo-toom": ["blue"],
-      "polva-passat": ["blue"],
-      "arnold": ["magenta"],
-      "larry-bird": ["magenta"],
-      "robotina-robotica": ["blue"],
-      "zz": ["blue"],
-      "imbi": ["magenta"]
+      "bbatc": ["blue", "magenta"],
+      "1_9-tdi": ["magenta", "blue"],
+      "saucisson": ["magenta", "blue"],
+      "hugo-toom": ["blue", "magenta"],
+      "polva-passat": ["blue", "magenta"],
+      "arnold": ["magenta", "blue"],
+      "larry-bird": ["magenta", "blue"],
+      "robotina-robotica": ["blue", "magenta"],
+      "zz": ["blue", "magenta"],
+      "imbi": ["magenta", "blue"]
     },
     "hasEnded": false
-  }
+  },
+  "breakInfo": {"isEnabled": true, "endTime": 1768649581579}
 }
