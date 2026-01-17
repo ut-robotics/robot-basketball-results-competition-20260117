@@ -3,7 +3,7 @@
   "robots": [{"id": "imbi", "name": "Imbi"}, {"id": "bbatc", "name": "BBATC"}],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -80,7 +80,7 @@
       "readyStates": [true, true],
       "baskets": ["blue", "magenta"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [{"startTime": 1768651314422, "endTime": 1768651374455}]
     }
