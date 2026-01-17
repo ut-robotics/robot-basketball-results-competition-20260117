@@ -1,0 +1,35 @@
+{
+  "id": 24,
+  "robots": [
+    {"id": "imbi", "name": "Imbi"},
+    {"id": "1_9-tdi", "name": "1.9 TDI"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.35, -1.45],
+    [0.35, 1.45],
+    [-1.18, 1.03],
+    [1.18, -1.03],
+    [0.69, -0.11],
+    [-0.69, 0.11],
+    [-0.09, -0.79],
+    [0.09, 0.79],
+    [0.32, 0.44],
+    [-0.32, -0.44]
+  ]
+}

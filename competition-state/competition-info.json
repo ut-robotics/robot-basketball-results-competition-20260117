@@ -52,20 +52,25 @@
       17,
       18,
       19,
-      20
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
     ],
     "byes": [],
     "robotStartingBaskets": {
-      "bbatc": ["blue", "magenta", "blue", "magenta"],
-      "1_9-tdi": ["magenta", "blue", "blue", "magenta"],
-      "saucisson": ["magenta", "blue", "magenta", "blue"],
-      "hugo-toom": ["blue", "magenta", "blue", "magenta"],
-      "polva-passat": ["blue", "magenta", "blue", "blue"],
-      "arnold": ["magenta", "blue", "magenta", "blue"],
-      "larry-bird": ["magenta", "blue", "magenta", "magenta"],
-      "robotina-robotica": ["blue", "magenta", "blue", "magenta"],
-      "zz": ["blue", "magenta", "magenta", "blue"],
-      "imbi": ["magenta", "blue", "magenta", "blue"]
+      "bbatc": ["blue", "magenta", "blue", "magenta", "blue"],
+      "1_9-tdi": ["magenta", "blue", "blue", "magenta", "blue"],
+      "saucisson": ["magenta", "blue", "magenta", "blue", "blue"],
+      "hugo-toom": ["blue", "magenta", "blue", "magenta", "blue"],
+      "polva-passat": ["blue", "magenta", "blue", "blue", "magenta"],
+      "arnold": ["magenta", "blue", "magenta", "blue", "magenta"],
+      "larry-bird": ["magenta", "blue", "magenta", "magenta", "blue"],
+      "robotina-robotica": ["blue", "magenta", "blue", "magenta", "magenta"],
+      "zz": ["blue", "magenta", "magenta", "blue", "magenta"],
+      "imbi": ["magenta", "blue", "magenta", "blue", "magenta"]
     },
     "hasEnded": false
   },
