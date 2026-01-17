@@ -47,7 +47,7 @@
         ]
       ],
       "fouls": [[], []],
-      "readyStates": [true, true],
+      "readyStates": [false, true],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
       "isConfirmed": false,
