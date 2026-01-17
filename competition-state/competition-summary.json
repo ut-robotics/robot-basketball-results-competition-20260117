@@ -1829,7 +1829,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1877,15 +1877,24 @@
             "fouls": [[], [{"time": 1768658887687, "isValid": true}]],
             "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 57857,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60053,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1768658822791, "endTime": 1768658880648}]
+            "winnerIndex": 0,
+            "runs": [
+              {"startTime": 1768658822791, "endTime": 1768658880648},
+              {"startTime": 1768658902263, "endTime": 1768658904459}
+            ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "larry-bird", "name": "Larry Bird"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-1.65, 0.57],
@@ -2064,7 +2073,7 @@
       {
         "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
         "score": 2.9,
-        "tieBreakScore": 7.7,
+        "tieBreakScore": 8.7,
         "rank": 2
       },
       {
@@ -2082,37 +2091,37 @@
       {
         "robot": {"id": "arnold", "name": "Arnold"},
         "score": 2.1,
-        "tieBreakScore": 7.4,
+        "tieBreakScore": 8.4,
         "rank": 5
+      },
+      {
+        "robot": {"id": "larry-bird", "name": "Larry Bird"},
+        "score": 2,
+        "tieBreakScore": 8.200000000000001,
+        "rank": 6
       },
       {
         "robot": {"id": "saucisson", "name": "Saucisson"},
         "score": 1.8,
         "tieBreakScore": 9.1,
-        "rank": 6
+        "rank": 7
       },
       {
         "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 1.7,
-        "tieBreakScore": 6.5,
-        "rank": 7
+        "tieBreakScore": 7.5,
+        "rank": 8
       },
       {
         "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
         "score": 1.5,
-        "tieBreakScore": 6.5,
-        "rank": 8
-      },
-      {
-        "robot": {"id": "larry-bird", "name": "Larry Bird"},
-        "score": 1,
-        "tieBreakScore": 8.200000000000001,
+        "tieBreakScore": 7.5,
         "rank": 9
       },
       {
         "robot": {"id": "polva-passat", "name": "Põlva Passat"},
         "score": 0,
-        "tieBreakScore": 7.1000000000000005,
+        "tieBreakScore": 9.100000000000001,
         "rank": 10
       }
     ],
@@ -2131,82 +2140,41 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 21,
+    "id": 22,
     "robots": [
-      {"id": "larry-bird", "name": "Larry Bird"},
-      {"id": "polva-passat", "name": "Põlva Passat"}
+      {"id": "bbatc", "name": "BBATC"},
+      {"id": "zz", "name": "Zorg en Zekerheid"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
     "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1768658674474, "isValid": true},
-            {"time": 1768658680162, "isValid": true},
-            {"time": 1768658762509, "isValid": true},
-            {"time": 1768658767989, "isValid": true}
-          ],
-          [
-            {"time": 1768658674918, "isValid": true},
-            {"time": 1768658678736, "isValid": true},
-            {"time": 1768658689118, "isValid": true}
-          ]
-        ],
-        "fouls": [
-          [],
-          [
-            {"time": 1768658707839, "isValid": true},
-            {"time": 1768658740629, "isValid": true}
-          ]
-        ],
-        "readyStates": [true, true],
+        "scores": [[], []],
+        "fouls": [[], []],
+        "readyStates": [false, false],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60011,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1768658663799, "endTime": 1768658702966},
-          {"startTime": 1768658723671, "endTime": 1768658728599},
-          {"startTime": 1768658753567, "endTime": 1768658769483}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768658869331, "isValid": true},
-            {"time": 1768658877235, "isValid": true},
-            {"time": 1768658882364, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[], [{"time": 1768658887687, "isValid": true}]],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 57857,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1768658822791, "endTime": 1768658880648}]
+        "runs": []
       }
     ],
     "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.65, 0.57],
-      [1.65, -0.57],
-      [-1.4, 0.73],
-      [1.4, -0.73],
-      [1.62, 0.49],
-      [-1.62, -0.49],
-      [-2.13, -0.66],
-      [2.13, 0.66],
-      [-2.01, 0.65],
-      [2.01, -0.65]
+      [1.12, -1.38],
+      [-1.12, 1.38],
+      [1.68, 0.4],
+      [-1.68, -0.4],
+      [0.49, -1.23],
+      [-0.49, 1.23],
+      [0.41, -0.19],
+      [-0.41, 0.19],
+      [0.53, 0.16],
+      [-0.53, -0.16]
     ]
   },
   "breakInfo": {"isEnabled": false, "endTime": 1768659099017}
