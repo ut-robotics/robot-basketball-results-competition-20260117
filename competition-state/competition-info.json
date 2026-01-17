@@ -81,16 +81,26 @@
       {"id": "hugo-toom", "name": "Hugo Toom"},
       {"id": "imbi", "name": "Imbi"}
     ],
-    "gameIDs": [1001, 1002, 1003],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
-    "noLossQueue": [],
-    "oneLossQueue": [
-      {"id": "1_9-tdi", "name": "1.9 TDI"},
-      {"id": "imbi", "name": "Imbi"}
-    ],
+    "gameIDs": [1001, 1002, 1003, 1004],
+    "gameTypes": {
+      "1001": "noLoss",
+      "1002": "noLoss",
+      "1003": "noLoss",
+      "1004": "oneLoss"
+    },
+    "noLossQueue": [{"id": "robotina-robotica", "name": "Robotina Robotica"}],
+    "oneLossQueue": [{"id": "hugo-toom", "name": "Hugo Toom"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
-      "1_9-tdi": ["magenta", "blue", "blue", "magenta", "blue", "magenta"],
+      "1_9-tdi": [
+        "magenta",
+        "blue",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue"
+      ],
       "robotina-robotica": [
         "blue",
         "magenta",
@@ -109,7 +119,15 @@
         "magenta",
         "blue"
       ],
-      "imbi": ["magenta", "blue", "magenta", "blue", "magenta", "blue"]
+      "imbi": [
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta"
+      ]
     },
     "hasEnded": false
   },

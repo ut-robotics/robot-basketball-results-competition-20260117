@@ -2639,7 +2639,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -2698,19 +2698,25 @@
             "runs": [{"startTime": 1768663366360, "endTime": 1768663426459}]
           },
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1768663953299, "isValid": true}], []],
             "fouls": [[], []],
             "readyStates": [true, false],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 3,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60099,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1768663891321, "endTime": null}]
+            "winnerIndex": 0,
+            "runs": [{"startTime": 1768663891321, "endTime": 1768663951420}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+          "roundWinCount": 2,
+          "roundLossCount": 1,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [1.59, -0.63],
@@ -2724,17 +2730,65 @@
           [1.42, -0.77],
           [-1.42, 0.77]
         ]
+      },
+      {
+        "id": 1004,
+        "robots": [
+          {"id": "1_9-tdi", "name": "1.9 TDI"},
+          {"id": "imbi", "name": "Imbi"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.59, 0.9],
+          [-0.59, -0.9],
+          [-0.52, -0.43],
+          [0.52, 0.43],
+          [0.79, 1.25],
+          [-0.79, -1.25],
+          [-0.2, 1.1],
+          [0.2, -1.1],
+          [-0.93, 1.23],
+          [0.93, -1.23]
+        ]
       }
     ],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
-    "noLossQueue": [],
-    "oneLossQueue": [
-      {"id": "1_9-tdi", "name": "1.9 TDI"},
-      {"id": "imbi", "name": "Imbi"}
-    ],
+    "gameTypes": {
+      "1001": "noLoss",
+      "1002": "noLoss",
+      "1003": "noLoss",
+      "1004": "oneLoss"
+    },
+    "noLossQueue": [{"id": "robotina-robotica", "name": "Robotina Robotica"}],
+    "oneLossQueue": [{"id": "hugo-toom", "name": "Hugo Toom"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
-      "1_9-tdi": ["magenta", "blue", "blue", "magenta", "blue", "magenta"],
+      "1_9-tdi": [
+        "magenta",
+        "blue",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue"
+      ],
       "robotina-robotica": [
         "blue",
         "magenta",
@@ -2753,7 +2807,15 @@
         "magenta",
         "blue"
       ],
-      "imbi": ["magenta", "blue", "magenta", "blue", "magenta", "blue"]
+      "imbi": [
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "blue",
+        "magenta"
+      ]
     },
     "hasEnded": false
   },
@@ -2765,7 +2827,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -2824,19 +2886,25 @@
         "runs": [{"startTime": 1768663366360, "endTime": 1768663426459}]
       },
       {
-        "scores": [[], []],
+        "scores": [[{"time": 1768663953299, "isValid": true}], []],
         "fouls": [[], []],
         "readyStates": [true, false],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 3,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60099,
         "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1768663891321, "endTime": null}]
+        "winnerIndex": 0,
+        "runs": [{"startTime": 1768663891321, "endTime": 1768663951420}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      "roundWinCount": 2,
+      "roundLossCount": 1,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [1.59, -0.63],
