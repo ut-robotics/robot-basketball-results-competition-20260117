@@ -790,7 +790,7 @@
               ]
             ],
             "fouls": [[], []],
-            "readyStates": [false, true],
+            "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
             "isConfirmed": false,
@@ -982,7 +982,7 @@
           ]
         ],
         "fouls": [[], []],
-        "readyStates": [false, true],
+        "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
         "isConfirmed": false,
