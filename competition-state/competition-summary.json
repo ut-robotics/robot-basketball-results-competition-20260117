@@ -2495,5 +2495,43 @@
     },
     "hasEnded": false
   },
-  "breakInfo": {"isEnabled": true, "endTime": 1768661902820}
+  "activeGame": {
+    "id": 1001,
+    "robots": [
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"}
+    ],
+    "startingBaskets": ["magenta", "blue"],
+    "isTieAllowed": false,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "readyStates": [false, false],
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 0,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": []
+      }
+    ],
+    "status": {"result": "unknown"},
+    "ballPlacement": [
+      [0, 0],
+      [1.42, 1.12],
+      [-1.42, -1.12],
+      [0.47, 0.12],
+      [-0.47, -0.12],
+      [-1.63, 0.69],
+      [1.63, -0.69],
+      [-1.21, -0.79],
+      [1.21, 0.79],
+      [1.17, -0.57],
+      [-1.17, 0.57]
+    ]
+  },
+  "breakInfo": {"isEnabled": false, "endTime": 1768662593274}
 }
