@@ -1,0 +1,35 @@
+{
+  "id": 13,
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "saucisson", "name": "Saucisson"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.73, 1.01],
+    [0.73, -1.01],
+    [0.57, 0.94],
+    [-0.57, -0.94],
+    [0.44, 0.35],
+    [-0.44, -0.35],
+    [-0.11, -1.21],
+    [0.11, 1.21],
+    [1.24, 0.36],
+    [-1.24, -0.36]
+  ]
+}
