@@ -39,7 +39,7 @@
       ]
     },
     {
-      "scores": [[], []],
+      "scores": [[{"time": 1768650742333, "isValid": true}], []],
       "fouls": [[], []],
       "readyStates": [true, true],
       "baskets": ["magenta", "blue"],
