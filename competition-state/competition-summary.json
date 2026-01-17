@@ -139,21 +139,25 @@
         "rounds": [
           {
             "scores": [
-              [],
+              [{"time": 1768647395599, "isValid": true}],
               [
                 {"time": 1768647301689, "isValid": true},
-                {"time": 1768647306080, "isValid": true}
+                {"time": 1768647306080, "isValid": true},
+                {"time": 1768647393644, "isValid": true}
               ]
             ],
             "fouls": [[], [{"time": 1768647327809, "isValid": true}]],
-            "readyStates": [false, true],
+            "readyStates": [true, true],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 27207,
+            "duration": 35934,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1768647295093, "endTime": 1768647322300}]
+            "runs": [
+              {"startTime": 1768647295093, "endTime": 1768647322300},
+              {"startTime": 1768647386881, "endTime": null}
+            ]
           }
         ],
         "status": {"result": "unknown"},
@@ -375,21 +379,25 @@
     "rounds": [
       {
         "scores": [
-          [],
+          [{"time": 1768647395599, "isValid": true}],
           [
             {"time": 1768647301689, "isValid": true},
-            {"time": 1768647306080, "isValid": true}
+            {"time": 1768647306080, "isValid": true},
+            {"time": 1768647393644, "isValid": true}
           ]
         ],
         "fouls": [[], [{"time": 1768647327809, "isValid": true}]],
-        "readyStates": [false, true],
+        "readyStates": [true, true],
         "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 27207,
+        "duration": 35934,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1768647295093, "endTime": 1768647322300}]
+        "runs": [
+          {"startTime": 1768647295093, "endTime": 1768647322300},
+          {"startTime": 1768647386881, "endTime": null}
+        ]
       }
     ],
     "status": {"result": "unknown"},
