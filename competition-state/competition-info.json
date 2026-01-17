@@ -81,16 +81,17 @@
       {"id": "hugo-toom", "name": "Hugo Toom"},
       {"id": "imbi", "name": "Imbi"}
     ],
-    "gameIDs": [1001, 1002, 1003, 1004],
+    "gameIDs": [1001, 1002, 1003, 1004, 1005],
     "gameTypes": {
       "1001": "noLoss",
       "1002": "noLoss",
       "1003": "noLoss",
-      "1004": "oneLoss"
+      "1004": "oneLoss",
+      "1005": "oneLoss"
     },
     "noLossQueue": [{"id": "robotina-robotica", "name": "Robotina Robotica"}],
-    "oneLossQueue": [{"id": "hugo-toom", "name": "Hugo Toom"}],
-    "eliminatedRobots": [],
+    "oneLossQueue": [],
+    "eliminatedRobots": [{"id": "imbi", "name": "Imbi"}],
     "robotStartingBaskets": {
       "1_9-tdi": [
         "magenta",
@@ -99,6 +100,7 @@
         "magenta",
         "blue",
         "magenta",
+        "blue",
         "blue"
       ],
       "robotina-robotica": [
@@ -117,7 +119,8 @@
         "magenta",
         "blue",
         "magenta",
-        "blue"
+        "blue",
+        "magenta"
       ],
       "imbi": [
         "magenta",
