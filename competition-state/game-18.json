@@ -12,7 +12,9 @@
       "scores": [
         [
           {"time": 1768656766599, "isValid": true},
-          {"time": 1768656798238, "isValid": true}
+          {"time": 1768656798238, "isValid": true},
+          {"time": 1768656809248, "isValid": true},
+          {"time": 1768656815422, "isValid": true}
         ],
         []
       ],
