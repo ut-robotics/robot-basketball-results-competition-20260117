@@ -1585,7 +1585,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1614,22 +1614,31 @@
             "scores": [
               [
                 {"time": 1768656906865, "isValid": true},
-                {"time": 1768656915550, "isValid": true}
+                {"time": 1768656915550, "isValid": true},
+                {"time": 1768656943675, "isValid": true},
+                {"time": 1768656950571, "isValid": true},
+                {"time": 1768656962225, "isValid": true}
               ],
               []
             ],
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 15789,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60004,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1768656899767, "endTime": null}]
+            "winnerIndex": 0,
+            "runs": [{"startTime": 1768656899767, "endTime": 1768656959771}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "1_9-tdi", "name": "1.9 TDI"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [1.31, -0.1],
@@ -1730,45 +1739,45 @@
         "rank": 1
       },
       {
+        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
+        "score": 2.7,
+        "tieBreakScore": 7.5,
+        "rank": 2
+      },
+      {
         "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
         "score": 2.5,
-        "tieBreakScore": 5.6,
-        "rank": 2
+        "tieBreakScore": 6.6,
+        "rank": 3
       },
       {
         "robot": {"id": "arnold", "name": "Arnold"},
         "score": 2.1,
         "tieBreakScore": 5.4,
-        "rank": 3
+        "rank": 4
       },
       {
         "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
         "score": 1.9,
         "tieBreakScore": 5.9,
-        "rank": 4
+        "rank": 5
       },
       {
         "robot": {"id": "saucisson", "name": "Saucisson"},
         "score": 1.8,
-        "tieBreakScore": 4.2,
-        "rank": 5
-      },
-      {
-        "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
-        "score": 1.7,
-        "tieBreakScore": 6,
+        "tieBreakScore": 5.2,
         "rank": 6
       },
       {
         "robot": {"id": "bbatc", "name": "BBATC"},
         "score": 1.7,
-        "tieBreakScore": 5.5,
+        "tieBreakScore": 6.5,
         "rank": 7
       },
       {
         "robot": {"id": "zz", "name": "Zorg en Zekerheid"},
         "score": 1.5,
-        "tieBreakScore": 3.8,
+        "tieBreakScore": 6.5,
         "rank": 8
       },
       {
@@ -1799,70 +1808,41 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 18,
+    "id": 19,
     "robots": [
-      {"id": "1_9-tdi", "name": "1.9 TDI"},
-      {"id": "zz", "name": "Zorg en Zekerheid"}
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "saucisson", "name": "Saucisson"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
     "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1768656766599, "isValid": true},
-            {"time": 1768656798238, "isValid": true},
-            {"time": 1768656809248, "isValid": true},
-            {"time": 1768656815422, "isValid": true}
-          ],
-          []
-        ],
-        "fouls": [[], [{"time": 1768656778055, "isValid": true}]],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60061,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1768656760239, "endTime": 1768656768895},
-          {"startTime": 1768656789855, "endTime": 1768656841260}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768656906865, "isValid": true},
-            {"time": 1768656915550, "isValid": true}
-          ],
-          []
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
+        "readyStates": [false, false],
+        "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 15790,
+        "duration": 0,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1768656899767, "endTime": null}]
+        "runs": []
       }
     ],
     "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.31, -0.1],
-      [-1.31, 0.1],
-      [-0.71, 0.11],
-      [0.71, -0.11],
-      [1.19, -1.3],
-      [-1.19, 1.3],
-      [0.24, 0.88],
-      [-0.24, -0.88],
-      [-1.07, -0.84],
-      [1.07, 0.84]
+      [0.6, -0.1],
+      [-0.6, 0.1],
+      [-0.58, -0.45],
+      [0.58, 0.45],
+      [-1.37, 0.84],
+      [1.37, -0.84],
+      [-0.88, 0.05],
+      [0.88, -0.05],
+      [-0.52, -0.78],
+      [0.52, 0.78]
     ]
   },
   "breakInfo": {"isEnabled": false, "endTime": 1768656276067}
