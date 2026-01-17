@@ -1,6 +1,17 @@
 {
   "id": "robot-basketball-competition-20260117",
   "name": "Robot Basketball Competition 2026-01-17",
-  "robots": [],
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "arnold", "name": "Arnold"},
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "imbi", "name": "Imbi"},
+    {"id": "larry-bird", "name": "Larry Bird"},
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "robotina-robotica", "name": "Robotina Robotica"},
+    {"id": "saucisson", "name": "Saucisson"},
+    {"id": "zz", "name": "Zorg en Zekerheid"}
+  ],
   "tournament": null
 }
