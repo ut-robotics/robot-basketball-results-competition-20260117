@@ -43,8 +43,8 @@
         [
           {"time": 1768657317695, "isValid": true},
           {"time": 1768657326818, "isValid": true},
-          {"time": 1768657332578, "isValid": true},
-          {"time": 1768657339617, "isValid": true}
+          {"time": 1768657332578, "isValid": false},
+          {"time": 1768657339617, "isValid": false}
         ],
         []
       ],
