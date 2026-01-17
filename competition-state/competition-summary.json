@@ -1191,13 +1191,26 @@
             "runs": [{"startTime": 1768654103071, "endTime": 1768654163169}]
           },
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1768654223643, "isValid": true},
+                {"time": 1768654237290, "isValid": true},
+                {"time": 1768654245517, "isValid": true},
+                {"time": 1768654251925, "isValid": true}
+              ],
+              [
+                {"time": 1768654222705, "isValid": true},
+                {"time": 1768654231624, "isValid": true},
+                {"time": 1768654241751, "isValid": true},
+                {"time": 1768654252298, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 5,
+            "duration": 43080,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1768654209223, "endTime": null}]
@@ -1428,13 +1441,26 @@
         "runs": [{"startTime": 1768654103071, "endTime": 1768654163169}]
       },
       {
-        "scores": [[], []],
+        "scores": [
+          [
+            {"time": 1768654223643, "isValid": true},
+            {"time": 1768654237290, "isValid": true},
+            {"time": 1768654245517, "isValid": true},
+            {"time": 1768654251925, "isValid": true}
+          ],
+          [
+            {"time": 1768654222705, "isValid": true},
+            {"time": 1768654231624, "isValid": true},
+            {"time": 1768654241751, "isValid": true},
+            {"time": 1768654252298, "isValid": true}
+          ]
+        ],
         "fouls": [[], []],
         "readyStates": [true, true],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 5,
+        "duration": 43080,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1768654209223, "endTime": null}]
