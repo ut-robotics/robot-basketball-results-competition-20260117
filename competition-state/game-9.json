@@ -50,9 +50,19 @@
       "readyStates": [true, true],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [{"startTime": 1768651660405, "endTime": 1768651720424}]
+    },
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [true, true],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": [{"startTime": 1768651816158, "endTime": null}]
     }
   ],
   "ballPlacement": [
