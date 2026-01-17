@@ -72,7 +72,37 @@
       "zz": ["blue", "magenta", "magenta", "blue", "magenta"],
       "imbi": ["magenta", "blue", "magenta", "blue", "magenta"]
     },
+    "hasEnded": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "imbi", "name": "Imbi"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "imbi", "name": "Imbi"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "1_9-tdi": ["magenta", "blue", "blue", "magenta", "blue", "magenta"],
+      "robotina-robotica": [
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "magenta",
+        "blue"
+      ],
+      "hugo-toom": ["blue", "magenta", "blue", "magenta", "blue"],
+      "imbi": ["magenta", "blue", "magenta", "blue", "magenta"]
+    },
     "hasEnded": false
   },
-  "breakInfo": {"isEnabled": false, "endTime": 1768659099017}
+  "breakInfo": {"isEnabled": true, "endTime": 1768661902820}
 }

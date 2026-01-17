@@ -2240,7 +2240,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -2300,19 +2300,40 @@
             ]
           },
           {
-            "scores": [[], [{"time": 1768661249304, "isValid": true}]],
+            "scores": [
+              [
+                {"time": 1768661262375, "isValid": true},
+                {"time": 1768661268395, "isValid": true},
+                {"time": 1768661271775, "isValid": true},
+                {"time": 1768661275416, "isValid": true},
+                {"time": 1768661281533, "isValid": true},
+                {"time": 1768661285240, "isValid": true}
+              ],
+              [
+                {"time": 1768661249304, "isValid": true},
+                {"time": 1768661264886, "isValid": true},
+                {"time": 1768661269626, "isValid": true},
+                {"time": 1768661278283, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "readyStates": [true, true],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 10636,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 50513,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1768661238671, "endTime": null}]
+            "winnerIndex": 0,
+            "runs": [{"startTime": 1768661238671, "endTime": 1768661289184}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "hugo-toom", "name": "Hugo Toom"},
+          "roundWinCount": 2,
+          "roundLossCount": 1,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [0.41, -0.8],
@@ -2331,39 +2352,39 @@
     "byes": [],
     "robotScores": [
       {
-        "robot": {"id": "imbi", "name": "Imbi"},
-        "score": 3.5,
-        "tieBreakScore": 13.6,
+        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
+        "score": 4.3,
+        "tieBreakScore": 14.5,
         "rank": 1
       },
       {
-        "robot": {"id": "hugo-toom", "name": "Hugo Toom"},
+        "robot": {"id": "imbi", "name": "Imbi"},
         "score": 3.5,
-        "tieBreakScore": 11.4,
+        "tieBreakScore": 14.6,
         "rank": 2
+      },
+      {
+        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
+        "score": 3.0999999999999996,
+        "tieBreakScore": 14.7,
+        "rank": 3
       },
       {
         "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
         "score": 3,
-        "tieBreakScore": 13.5,
-        "rank": 3
-      },
-      {
-        "robot": {"id": "robotina-robotica", "name": "Robotina Robotica"},
-        "score": 2.9,
-        "tieBreakScore": 10.399999999999999,
+        "tieBreakScore": 14.3,
         "rank": 4
       },
       {
         "robot": {"id": "arnold", "name": "Arnold"},
         "score": 2.6,
-        "tieBreakScore": 10.7,
+        "tieBreakScore": 11.7,
         "rank": 5
       },
       {
         "robot": {"id": "saucisson", "name": "Saucisson"},
         "score": 2.3,
-        "tieBreakScore": 12,
+        "tieBreakScore": 12.999999999999998,
         "rank": 6
       },
       {
@@ -2381,7 +2402,7 @@
       {
         "robot": {"id": "larry-bird", "name": "Larry Bird"},
         "score": 2,
-        "tieBreakScore": 9.700000000000001,
+        "tieBreakScore": 9.9,
         "rank": 9
       },
       {
@@ -2403,102 +2424,76 @@
       "zz": ["blue", "magenta", "magenta", "blue", "magenta"],
       "imbi": ["magenta", "blue", "magenta", "blue", "magenta"]
     },
-    "hasEnded": false
+    "hasEnded": true
   },
-  "activeGame": {
-    "id": 25,
+  "doubleEliminationTournament": {
     "robots": [
+      {"id": "1_9-tdi", "name": "1.9 TDI"},
+      {"id": "robotina-robotica", "name": "Robotina Robotica"},
       {"id": "hugo-toom", "name": "Hugo Toom"},
-      {"id": "robotina-robotica", "name": "Robotina Robotica"}
+      {"id": "imbi", "name": "Imbi"}
     ],
-    "startingBaskets": ["blue", "magenta"],
-    "isTieAllowed": true,
-    "hasEnded": false,
-    "rounds": [
+    "games": [
       {
-        "scores": [
-          [
-            {"time": 1768660923756, "isValid": true},
-            {"time": 1768660928177, "isValid": true},
-            {"time": 1768660932103, "isValid": true},
-            {"time": 1768660934552, "isValid": true},
-            {"time": 1768661020221, "isValid": true},
-            {"time": 1768661023230, "isValid": true}
-          ],
-          [
-            {"time": 1768660926296, "isValid": true},
-            {"time": 1768660931835, "isValid": true},
-            {"time": 1768660936912, "isValid": true},
-            {"time": 1768660942229, "isValid": true}
-          ]
+        "id": 1001,
+        "robots": [
+          {"id": "1_9-tdi", "name": "1.9 TDI"},
+          {"id": "robotina-robotica", "name": "Robotina Robotica"}
         ],
-        "fouls": [[{"time": 1768660946264, "isValid": true}], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 37423,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1768660916176, "endTime": 1768660940439},
-          {"startTime": 1768661013256, "endTime": 1768661026416}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1768661096983, "isValid": true},
-            {"time": 1768661101172, "isValid": true},
-            {"time": 1768661164010, "isValid": true}
-          ],
-          [
-            {"time": 1768661101557, "isValid": true},
-            {"time": 1768661113394, "isValid": true},
-            {"time": 1768661118491, "isValid": true},
-            {"time": 1768661158739, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60021,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1768661086992, "endTime": 1768661129472},
-          {"startTime": 1768661149824, "endTime": 1768661167365}
-        ]
-      },
-      {
-        "scores": [[], [{"time": 1768661249304, "isValid": true}]],
-        "fouls": [[], []],
-        "readyStates": [true, true],
-        "baskets": ["blue", "magenta"],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": false,
         "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 10637,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1768661238671, "endTime": null}]
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "readyStates": [false, false],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.42, 1.12],
+          [-1.42, -1.12],
+          [0.47, 0.12],
+          [-0.47, -0.12],
+          [-1.63, 0.69],
+          [1.63, -0.69],
+          [-1.21, -0.79],
+          [1.21, 0.79],
+          [1.17, -0.57],
+          [-1.17, 0.57]
+        ]
       }
     ],
-    "status": {"result": "unknown"},
-    "ballPlacement": [
-      [0, 0],
-      [0.41, -0.8],
-      [-0.41, 0.8],
-      [1.49, 0.04],
-      [-1.49, -0.04],
-      [0.78, -0.63],
-      [-0.78, 0.63],
-      [-0.19, -0.44],
-      [0.19, 0.44],
-      [1.23, -0.9],
-      [-1.23, 0.9]
-    ]
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "hugo-toom", "name": "Hugo Toom"},
+      {"id": "imbi", "name": "Imbi"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "1_9-tdi": ["magenta", "blue", "blue", "magenta", "blue", "magenta"],
+      "robotina-robotica": [
+        "blue",
+        "magenta",
+        "blue",
+        "magenta",
+        "magenta",
+        "blue"
+      ],
+      "hugo-toom": ["blue", "magenta", "blue", "magenta", "blue"],
+      "imbi": ["magenta", "blue", "magenta", "blue", "magenta"]
+    },
+    "hasEnded": false
   },
-  "breakInfo": {"isEnabled": false, "endTime": 1768659099017}
+  "breakInfo": {"isEnabled": true, "endTime": 1768661902820}
 }
