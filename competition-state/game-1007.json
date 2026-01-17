@@ -1,0 +1,35 @@
+{
+  "id": 1007,
+  "robots": [
+    {"id": "robotina-robotica", "name": "Robotina Robotica"},
+    {"id": "hugo-toom", "name": "Hugo Toom"}
+  ],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "readyStates": [false, false],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.51, 0.68],
+    [1.51, -0.68],
+    [0.68, 0.26],
+    [-0.68, -0.26],
+    [0.5, -0.49],
+    [-0.5, 0.49],
+    [-2.06, 1.18],
+    [2.06, -1.18],
+    [1.1, 0.43],
+    [-1.1, -0.43]
+  ]
+}
